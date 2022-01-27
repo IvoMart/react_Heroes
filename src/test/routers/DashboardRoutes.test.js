@@ -35,6 +35,24 @@ describe('Pruebas en DashboardRoutes', () => {
         expect(wrapper.find( '.text-info' ).text().trim()).toBe('Testing Dashboard');
 
     });
+    
+    test('Debe de mostrarse correctamente Marvel', () => {
+        const wrapper = mount
+        (
+            <AuthContext.Provider value={contextValue}>
+                <MemoryRouter initialEntries={['/marvel']}>
+                    <DashboardRoutes />
+                </MemoryRouter>
+            </AuthContext.Provider>
+        );
+
+
+        expect(wrapper).toMatchSnapshot();
+
+        expect(wrapper.find( '.text-info' ).text().trim()).toBe('Testing Dashboard');
+        expect(wrapper.find( 'h1' ).text().trim()).toBe('Marvel Heroes');
+
+    });
 
     test('Debe mostrarse correctamente DC', () => {
         const wrapper = mount
@@ -46,13 +64,9 @@ describe('Pruebas en DashboardRoutes', () => {
             </AuthContext.Provider>
         );
 
-        // console.log(wrapper.html())
 
         expect(wrapper).toMatchSnapshot();
-
-        // console.log(wrapper.find( '.text-info' ).text().trim());
-
-        expect(wrapper.find( '.text-info' ).text().trim()).toBe('Testing Dashboard');
+        expect(wrapper.find( 'h1' ).text().trim()).toBe('Dc Screen');
     });
     
 
