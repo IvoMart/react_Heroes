@@ -1,0 +1,600 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en AppRouters Debe dirigir al Login si el user no está autenticado- 1`] = `
+<div
+  className="container mt-5"
+>
+  <h1>
+    Login
+  </h1>
+  <hr />
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Login
+  </button>
+</div>
+`;
+
+exports[`Pruebas en AppRouters Debe mostrar componente de Inicio si está autenticado 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      Asociaciones
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          className="nav-item nav-link ms-5false"
+          href="/marvel"
+          onClick={[Function]}
+        >
+          Marvel
+        </a>
+        <a
+          className="nav-item nav-link me-5false"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          className="nav-item nav-link me-5false"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Test
+        </span>
+        <button
+          className="nav-item nav-link btn btn-sm text-uppercase"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container"
+  >
+    <div>
+      <h1>
+        Dc Screen
+      </h1>
+      <div
+        className="row row-cols-md-4 row-cols-sm-1 g-3"
+      >
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-batman"
+              onClick={[Function]}
+            >
+              <img
+                alt="Batman"
+                className="card-img"
+                src="/assets/dc-batman.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Batman
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Bruce Wayne
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                Detective Comics #27
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-batman"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-superman"
+              onClick={[Function]}
+            >
+              <img
+                alt="Superman"
+                className="card-img"
+                src="/assets/dc-superman.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Superman
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Kal-El
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                Action Comics #1
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-superman"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-flash"
+              onClick={[Function]}
+            >
+              <img
+                alt="Flash"
+                className="card-img"
+                src="/assets/dc-flash.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Flash
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Jay Garrick
+              </p>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Jay Garrick, Barry Allen, Wally West, Bart Allen
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                Flash Comics #1
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-flash"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-green"
+              onClick={[Function]}
+            >
+              <img
+                alt="Green Lantern"
+                className="card-img"
+                src="/assets/dc-green.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Green Lantern
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Alan Scott
+              </p>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                All-American Comics #16
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-green"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-arrow"
+              onClick={[Function]}
+            >
+              <img
+                alt="Green Arrow"
+                className="card-img"
+                src="/assets/dc-arrow.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Green Arrow
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Oliver Queen
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                More Fun Comics #73
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-arrow"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-wonder"
+              onClick={[Function]}
+            >
+              <img
+                alt="Wonder Woman"
+                className="card-img"
+                src="/assets/dc-wonder.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Wonder Woman
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Princess Diana
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                All Star Comics #8
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-wonder"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-martian"
+              onClick={[Function]}
+            >
+              <img
+                alt="Martian Manhunter"
+                className="card-img"
+                src="/assets/dc-martian.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Martian Manhunter
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                J'onn J'onzz
+              </p>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Martian Manhunter
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                Detective Comics #225
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-martian"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-robin"
+              onClick={[Function]}
+            >
+              <img
+                alt="Robin/Nightwing"
+                className="card-img"
+                src="/assets/dc-robin.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Robin/Nightwing
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Dick Grayson
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                Detective Comics #38
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-robin"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-blue"
+              onClick={[Function]}
+            >
+              <img
+                alt="Blue Beetle"
+                className="card-img"
+                src="/assets/dc-blue.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Blue Beetle
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Dan Garret
+              </p>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Dan Garret, Ted Kord, Jaime Reyes
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                Mystery Men Comics #1
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-blue"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="animate__animated animate__bounceIn"
+        >
+          <div
+            className="card"
+          >
+            <a
+              href="/heroe/dc-black"
+              onClick={[Function]}
+            >
+              <img
+                alt="Black Canary"
+                className="card-img"
+                src="/assets/dc-black.jpg"
+              />
+            </a>
+            <div
+              className="card-body"
+            >
+              <h4
+                className="card-title text-uppercase"
+              >
+                Black Canary
+              </h4>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Dinah Drake
+              </p>
+              <p
+                className="card-text text-center text-muted"
+              >
+                Dinah Drake, Dinah Lance
+              </p>
+              <p
+                className="card-text text-muted"
+              >
+                Flash Comics #86
+              </p>
+              <button
+                className="btn btn-lg btn btn-outline-info"
+                type="button"
+              >
+                <a
+                  href="/heroe/dc-black"
+                  onClick={[Function]}
+                >
+                  Ver Más..
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
