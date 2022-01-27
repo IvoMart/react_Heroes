@@ -18,13 +18,14 @@ export const SearchScreen = () => {
   });
   
   const { searchText } = values;
+  //@ts-ignore
   const heroeSearch = useMemo(() => getHeroeByName(q), [q]);
   
   const handlerSearch = (e) => {
     e.preventDefault();
     navigate(`?q=${searchText}`);
   }
-
+  
   return (
     <>
       <h1>Buscar Heroe</h1>
@@ -33,7 +34,9 @@ export const SearchScreen = () => {
         <div className="col-6">
           <h3>Buscar</h3>
           <form onSubmit={handlerSearch}>
-            <input type="text" placeholder='Heroe .. ' className='form-control' name='searchText' onChange={handleInputChange} value={searchText} />
+            <input type="text" placeholder='Heroe .. ' className='form-control' name='searchText' 
+            //@ts-ignore
+            onChange={handleInputChange} value={searchText} />
 
             <button type="submit" className='btn btn-info mt-3' onClick={handlerSearch}>Buscar...</button>
           </form>
