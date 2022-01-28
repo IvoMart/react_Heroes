@@ -1,0 +1,1 @@
+export const imagesPath = (id)=> require(`../assets/${id}.jpg`);

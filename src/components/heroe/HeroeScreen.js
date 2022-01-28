@@ -1,6 +1,7 @@
 import React, {useMemo} from 'react';
 import { Navigate, useNavigate, useParams } from 'react-router-dom';
 import { getHeroeById } from '../../helpers/getHeroeById';
+import { imagesPath } from '../../helpers/sourceImages';
 
 
 export const HeroeScreen = () => {
@@ -18,7 +19,9 @@ export const HeroeScreen = () => {
   }
 
   const {id, publisher, alter_ego, characters, first_appearance, superhero} = heroe;
-  const imagePath = `/assets/${id}.jpg`
+  // const imagePath = `/assets/${id}.jpg`
+  // const imagePath = require(`../../assets/${id}.jpg`);
+  const imagePath = imagesPath(id);
   
   return (
   <div className='row justify-content-around'>
