@@ -1,10 +1,12 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { MemoryRouter, Route, Routes, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../auth/authContext';
-import { LoginScreen } from '../../components/login/LoginScreen';
-import { Navbar } from '../../components/ui/Navbar';
-import { types } from '../../types/types';
+
+import { AuthContext } from '../../../auth/authContext';
+import { types } from '../../../types/types';
+import { LoginScreen } from '../../../components/login/LoginScreen';
+import { Navbar } from '../../../components/ui/Navbar';
+
 
 describe('Pruebas en <Navbar/>', () => {
 
